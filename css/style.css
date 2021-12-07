@@ -32,9 +32,33 @@ header,
   width: 75px;
 }
 
+#btni18n {
+  background-color: #353d41;
+  border: aliceblue;
+  margin-bottom: 6px;
+}
+
+#lang {
+  /*color: #fff;*/
+  font-size: 25px;
+}
+
+.menu-i18n {
+  position: absolute;
+  top: 100%;
+  right: -234px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 3px 25px rgb(0 0 0 / 5%);
+  border-top: 2px solid var(--dark-yellow);
+  z-index: 2;
+}
+
 .navbar-brand {
   padding: 0;
   color: #fff;
+  margin-left: 40px;
 }
 
 .navbar-brand:hover {
@@ -44,6 +68,10 @@ header,
 #navbar-links a {
   color: #fff;
   text-decoration: none;
+}
+
+.navbar-nav {
+  margin-right: 40px;
 }
 
 #navbar-expand-lg .navbar-nav .nav-link {
@@ -184,4 +212,9 @@ header,
   text-align: center;
   font-size: 26px;
   margin-top: 20px;
+}
+
+/* Time */
+.card-body {
+  text-align: center;
 }
