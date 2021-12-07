@@ -97,3 +97,4 @@ $(document).ready(function () {
     $('#data-area').parallax({ imageSrc: 'img/cidadeparallax.png' })
   }, 250)
 })
+
