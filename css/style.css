@@ -116,11 +116,11 @@ header,
   transition: 0.5s;
 }
 
-.main-btn {
+.main-btn:hover {
   text-decoration: none;
   color: #fff;
   background-color: transparent;
-  border-color: #65daf9;
+  border-color: #3EC1D5;
 }
 
 .carousel-indicators .active {
@@ -269,4 +269,35 @@ header,
 #apply-btn:hover {
   border-color: #65daf9;
   background-color: #65daf9;
+}
+
+/* Portfólio */
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+#portfolio-area .filter-btn.active, 
+#portfolio-area .filter-btn:hover {
+  color: #fff;
+  background-color: #65daf9;
+  border-color: #65daf9;
 }
