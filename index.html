@@ -77,18 +77,22 @@
             id="navbar-links"
           >
             <div class="navbar-nav">
-              <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
-              <a href="#" class="nav-item nav-link" id="about-menu"
+              <a href="#mainSlider" class="nav-item nav-link" id="home-menu"
+              >Home</a
+              >
+              <a href="#about-area" class="nav-item nav-link" id="about-menu"
                 >A agência</a
               >
-              <a href="#" class="nav-item nav-link" id="services-menu"
+              <a href="#services-area" class="nav-item nav-link" id="services-menu"
                 >Serviços</a
               >
-              <a href="#" class="nav-item nav-link" id="team-menu">Time</a>
-              <a href="#" class="nav-item nav-link" id="portfolio-menu"
+              <a href="#team-area" class="nav-item nav-link" id="team-menu"
+              >Time</a
+              >
+              <a href="#portfolio-area" class="nav-item nav-link" id="portfolio-menu"
                 >Projetos</a
               >
-              <a href="#" class="nav-item nav-link" id="contact-menu"
+              <a href="#contact-area" class="nav-item nav-link" id="contact-menu"
                 >Contato</a
               >
             </div>
@@ -437,8 +441,90 @@
             </div>
           </div>
         </div>
+
+        <!-- Newsletter -->
+        <div id="news-area">
+          <div class="container">
+            <div class="col-md-12">
+              <h3 class="main-title">Fique por Dentro das Novidades</h3>
+            </div>
+            <p>
+              Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software
+            </p>
+            <form action="">
+              <input 
+              type="email" 
+              name="email" 
+              id="email-input" 
+              class="form-control" 
+              placeholder="Seu melhor e-mail"
+              >
+              <input 
+              type="submit" 
+              id="news-btn" 
+              value="Inscrever"
+              >
+            </form>
+          </div>
+        </div>
+
+        <!-- Call to action -->
+        <div id="call-area">
+          <div class="container">
+            <div class="row">
+              <p>Deseja fazer um orçamento sem compromisso</p>
+              <button class="main-btn" id="call-btn">Orçar</button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em Contato Conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-title">Ligue para:</span> (11) 555-555</p>
+              <p><span class="contact-title">Horários:</span> 09h30 às 19h00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-title">Envie um e-mail:</span> contato@agencyweb.com</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-title">Venha tomar um café:</span> Rua Lorem Ipsum - 1533</p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Ou nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="email" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" class="main-btn" value="Enviar">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido com 💜 por <a href="https://github.com/slvsccp" target="_blank">Matheus Silva</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/main.js"></script>
   </body>
